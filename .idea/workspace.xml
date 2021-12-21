@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b6f8281-eaf2-4b21-bd90-c9678114271d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Last_HW/Spider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Last_HW/src/Spider_Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last_HW/src/Spider_Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/Last_HW/src/Spider_Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Last_HW/Spider_Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Last_HW/Spider_Food.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NKUST_C110181135" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
