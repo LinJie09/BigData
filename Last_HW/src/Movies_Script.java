@@ -12,7 +12,7 @@ public class Movies_Script {
 //            System.out.println(moviesTitle);
             for (Element moviesClass : moviesTitle) {
                 Elements titleName = doc.select("li .myui-vodlist__detail");
-                //16行是抓 a Tag 裡的 Title 
+                //16行是抓 a Tag 裡的 Title (但是一直只有抓到第一個 Name 而已)
                 System.out.println("Title : "+ titleName.select("a").attr("title"));
                 String titleDoc = moviesClass.absUrl("href");
                 Document moviesDoc = Jsoup.connect(titleDoc).get();
