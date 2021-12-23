@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b6f8281-eaf2-4b21-bd90-c9678114271d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Last_HW/src/Movies_Script.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Last_HW/src/Movies_Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/Last_HW/src/Movies_Script.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Movies_Script">
+    <configuration name="Movies_Script" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Movies_Script" />
+      <module name="Last_HW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spider_Food" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Spider_Food" />
       <module name="Last_HW" />
@@ -47,6 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Movies_Script" />
         <item itemvalue="Application.Spider_Food" />
       </list>
     </recent_temporary>
