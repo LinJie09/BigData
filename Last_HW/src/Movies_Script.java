@@ -9,11 +9,9 @@ public class Movies_Script {
             Document doc = Jsoup.connect("https://gimytv.com/browse/movies.html").get();
             System.out.println(doc.title());
             Elements moviesTitle = doc.select(".container .row li div.myui-vodlist__box h4.title.text-overflow a");
-//            System.out.println(moviesTitle);
             for (Element moviesClass : moviesTitle) {
-                Elements titleName = doc.select("li .myui-vodlist__detail");
-                //16行是抓 a Tag 裡的 Title (但是一直只有抓到第一個 Name 而已)
-                System.out.println("Title : "+ titleName.select("a").attr("title"));
+                Elements titleName = doc.select("li .title.text-overflow");
+                System.out.println("moviesClass : "+ moviesClass.attr("title"));
                 String titleDoc = moviesClass.absUrl("href");
                 Document moviesDoc = Jsoup.connect(titleDoc).get();
                 System.out.println("Movies Title Link: "+ titleDoc);
