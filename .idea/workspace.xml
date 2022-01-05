@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b6f8281-eaf2-4b21-bd90-c9678114271d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Last_HW/src/Author_Script.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Last_HW/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Last_HW/src/Movies_Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/Last_HW/src/Movies_Script.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Last_HW/Movies_Script.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Last_HW/Movies_Script.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager" selected="Application.Author_Script">
+  <component name="RunManager" selected="Application.Movies_Script">
     <configuration name="Author_Script" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Author_Script" />
       <module name="Last_HW" />
@@ -72,8 +68,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Author_Script" />
         <item itemvalue="Application.Movies_Script" />
+        <item itemvalue="Application.Author_Script" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Spider_Food" />
       </list>

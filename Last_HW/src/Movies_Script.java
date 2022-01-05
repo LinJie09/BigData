@@ -6,7 +6,7 @@ import org.jsoup.select.Elements;
 public class Movies_Script {
     public static void main(String[] args) {
         try {
-            Document doc = Jsoup.connect("https://gimytv.com/browse/movies.html").get();
+            Document doc = Jsoup.connect("https://gimytv.com/genre/drama---.html").get();
             System.out.println(doc.title());
             System.out.println("------------------------");
             Elements moviesTitle = doc.select(".container .row li div.myui-vodlist__box h4.title.text-overflow a");
