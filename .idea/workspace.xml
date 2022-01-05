@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b6f8281-eaf2-4b21-bd90-c9678114271d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Last_HW/src/Author_Script.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Last_HW/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Last_HW/src/Movies_Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/Last_HW/src/Movies_Script.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Last_HW/Movies_Script.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Last_HW/Movies_Script.class" afterDir="false" />
@@ -39,7 +41,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager" selected="Application.Movies_Script">
+  <component name="RunManager" selected="Application.Author_Script">
+    <configuration name="Author_Script" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Author_Script" />
+      <module name="Last_HW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Movies_Script" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Movies_Script" />
       <module name="Last_HW" />
@@ -54,9 +63,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Last_HW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Author_Script" />
         <item itemvalue="Application.Movies_Script" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Spider_Food" />
       </list>
     </recent_temporary>
@@ -83,16 +101,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Last_HW/src/Movies_Script.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

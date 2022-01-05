@@ -8,13 +8,15 @@ public class Movies_Script {
         try {
             Document doc = Jsoup.connect("https://gimytv.com/browse/movies.html").get();
             System.out.println(doc.title());
+            System.out.println("------------------------");
             Elements moviesTitle = doc.select(".container .row li div.myui-vodlist__box h4.title.text-overflow a");
             for (Element moviesClass : moviesTitle) {
                 Elements titleName = doc.select("li .title.text-overflow");
-                System.out.println("moviesClass : "+ moviesClass.attr("title"));
                 String titleDoc = moviesClass.absUrl("href");
-                Document moviesDoc = Jsoup.connect(titleDoc).get();
+                System.out.println("Movies Name : "+ moviesClass.attr("title"));
                 System.out.println("Movies Title Link: "+ titleDoc);
+                System.out.println("=================================================");
+
             }
         }catch (Exception e){
             System.out.println(e);
